@@ -1,4 +1,4 @@
-# Smart-SortingTrash
+# Smart-SortingTrash  
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/faaa38ca-623b-4593-bdf1-f11fbff621d9)![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/e95af37e-5298-46ec-b408-03c92d80420c)
 ## 开发工具：Ubuntu、MobaXterm、Vscode、FileZilla、Keil、STM32CubeMX、MaixPy     
 ## 开发板  ：MP157、STM32F427IIH、CanMV K210     
@@ -17,14 +17,14 @@ https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/1029a3f6-263b-4
 ## PS2手柄调试记录：https://blog.csdn.net/m0_68048437/article/details/138734213?spm=1001.2014.3001.5502   
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/d1a56e0f-57ba-47a0-918e-88ab08847f2a)   
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/393819fb-d209-427a-9c94-30962b5d0074
-## MP157 Linux开发板实现获取传感器（GPS、陀螺仪、光照、温度）数据，用Qt显示在LCD并使用Socket联网上传数据    
+## MP157 Linux开发板实现获取传感器（GPS、陀螺仪、光照、温度）数据，用Qt显示在LCD并使用Socket联网上传数据     
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/24c75af3-a79c-47ee-a72f-845ced1a41b4
-# 视觉识别
-## 使用Maix Hub提供的训练平台(https://maixhub.com/model/zoo?feature=classification)训练出Kmodel模型,能够稳定识别6类垃圾（纸巾、易拉罐、有害、厨余、纸箱、其他）  
+# 视觉识别  
+## 使用Maix Hub提供的训练平台(https://maixhub.com/model/zoo?feature=classification)训练出Kmodel模型,能够稳定识别6类垃圾（纸巾、易拉罐、有害、厨余、纸箱、其他）    
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/0b7eac1c-d26a-476f-bc29-aaa6428b6205
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/8921cec8-3fbf-4c42-bb65-762a2c8ac629
-# 软件部署
-## 将Linux开发板上传的数据到后端进行解析，然后在前端进行可视化显示管理
+# 软件部署  
+## 将Linux开发板上传的数据到后端进行解析，然后在前端进行可视化显示管理  
 ![250f0b09547eba5a7c552c91fbac9ba](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/37413b70-6f9c-4237-875f-cc12a6f485fc)
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/247a76bf-4cf7-4b34-8723-3e76bc1eb3f2)
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/08063782-8ddb-4ffe-b683-b3bf71761fc3)
