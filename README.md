@@ -3,6 +3,7 @@
 ## 开发板  ：MP157、STM32F427IIH、CanMV K210     
 ## 项目概述：使用视觉识别垃圾种类，通过 STM32F4通过RTOS控制舵机与电机实现垃圾倾倒，并将垃圾数据以及传感器数据发送给MP157，再由MP157使用socket编程上传数据到后端服务器并在网页可视化显示
 # 整体演示效果
+![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/4047df93-01d5-4509-925e-fa21e20b9c7a)
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/fba66972-dae3-4d9c-9686-aa37f3eb5a79
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/b32e5f62-fccf-437f-9bfa-c59460751142
 # 控制思路
