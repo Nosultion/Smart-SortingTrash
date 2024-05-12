@@ -1,12 +1,8 @@
-
-https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/8b84dce2-b0a9-46b4-abd1-46e86b98749b
 # Smart-SortingTrash
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/faaa38ca-623b-4593-bdf1-f11fbff621d9)![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/e95af37e-5298-46ec-b408-03c92d80420c)
 ## 开发工具：Ubuntu、MobaXterm、Vscode、FileZilla、Keil、STM32CubeMX、MaixPy     
 ## 开发板  ：MP157、STM32F427IIH、CanMV K210     
-## 项目概述：   
-### 使用视觉识别垃圾种类，通过 STM32F4通过RTOS控制舵机与电机实现垃圾倾倒，并将垃圾数据以及    
-### 传感器数据发送给MP157，再由MP157使用socket编程上传数据到后端服务器并在网页可视化显示。   
+## 项目概述：使用视觉识别垃圾种类，通过 STM32F4通过RTOS控制舵机与电机实现垃圾倾倒，并将垃圾数据以及传感器数据发送给MP157，再由MP157使用socket编程上传数据到后端服务器并在网页可视化显示
 # 整体演示效果
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/f56e185c-bf6f-4ade-955a-8049e4883ffb
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/19cfeb6b-04f1-4dca-b0c6-1d0f956e513b
