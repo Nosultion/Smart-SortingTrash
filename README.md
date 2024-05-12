@@ -20,7 +20,7 @@ https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/393819fb-d209-4
 ## MP157 Linux开发板实现获取传感器（GPS、陀螺仪、光照、温度）数据，用Qt显示在LCD并使用Socket联网上传数据     
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/24c75af3-a79c-47ee-a72f-845ced1a41b4
 # 视觉识别  
-## 使用Maix Hub提供的训练平台(https://maixhub.com/model/zoo?feature=classification)训练出Kmodel模型,能够稳定识别6类垃圾（纸巾、易拉罐、有害、厨余、纸箱、其他）    
+## 使用Maix Hub提供的训练平台(https://maixhub.com/model/zoo?feature=classification)训练出Kmodel模型,能够稳定识别6类垃圾    
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/0b7eac1c-d26a-476f-bc29-aaa6428b6205
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/8921cec8-3fbf-4c42-bb65-762a2c8ac629
 # 软件部署  
