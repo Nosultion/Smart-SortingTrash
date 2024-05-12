@@ -15,7 +15,8 @@ https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/b1a2e5e5-e39e-4
 # 控制思路
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/c472ca50-cbfe-4a82-99dc-c2c7a53f6f2a)
 # 电路控制
-## 使用带编码器的直流无刷减速电机控制垃圾盖开合（https://item.taobao.com/item.htm?_u=c20c2kt5mcc139&id=658346700342&spm=a1z09.2.0.0.51af2e8d0zt2wc）      
+## 使用带编码器的直流无刷减速电机控制垃圾盖开合  
+淘宝链接： https://item.taobao.com/item.htm?_u=c20c2kt5mcc139&id=658346700342&spm=a1z09.2.0.0.51af2e8d0zt2wc       
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/c53d2ecb-9513-4cc6-87b6-0c42c9537596)
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/49fe4d62-1d00-42e5-99a5-19b137109937)
 
@@ -26,6 +27,14 @@ https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/14532bf4-9db5-4
 ## 使用CAN协议进行M2006大疆电机控制 配合PS2手柄可以做到远程控制垃圾桶前进、后退、加减速，自旋等
 ## PS2手柄调试记录：https://blog.csdn.net/m0_68048437/article/details/138734213?spm=1001.2014.3001.5502   
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/d1a56e0f-57ba-47a0-918e-88ab08847f2a)   
+
+
+https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/41a34631-369d-4e56-967d-cf0fd39e8e71
+
+
+
+https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/4b39f786-f34a-4d95-ba31-22bd7a1ead1f
+
 
 ## MP157 Linux开发板实现获取传感器（GPS、陀螺仪、光照、温度）数据，用Qt显示在LCD并使用Socket联网上传数据     
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/24c75af3-a79c-47ee-a72f-845ced1a41b4
