@@ -1,11 +1,10 @@
 # Smart-SortingTrash  
-![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/faaa38ca-623b-4593-bdf1-f11fbff621d9)![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/e95af37e-5298-46ec-b408-03c92d80420c)
 ## 开发工具：Ubuntu、MobaXterm、Vscode、FileZilla、Keil、STM32CubeMX、MaixPy     
 ## 开发板  ：MP157、STM32F427IIH、CanMV K210     
 ## 项目概述：使用视觉识别垃圾种类，通过 STM32F4通过RTOS控制舵机与电机实现垃圾倾倒，并将垃圾数据以及传感器数据发送给MP157，再由MP157使用socket编程上传数据到后端服务器并在网页可视化显示
 # 整体演示效果
-https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/f56e185c-bf6f-4ade-955a-8049e4883ffb
-https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/19cfeb6b-04f1-4dca-b0c6-1d0f956e513b
+https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/33971fc0-d1d3-4409-aee1-cae69f37b33f
+https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/c34bf145-0ec7-4241-923c-4333e93dd246
 # 控制思路
 ![image](https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/c472ca50-cbfe-4a82-99dc-c2c7a53f6f2a)
 # 电路控制
@@ -20,7 +19,7 @@ https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/393819fb-d209-4
 ## MP157 Linux开发板实现获取传感器（GPS、陀螺仪、光照、温度）数据，用Qt显示在LCD并使用Socket联网上传数据     
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/24c75af3-a79c-47ee-a72f-845ced1a41b4
 # 视觉识别  
-## 使用Maix Hub提供的训练平台(https://maixhub.com/model/zoo?feature=classification)训练出Kmodel模型,能够稳定识别6类垃圾    
+## 使用Maix Hub提供的训练平台(https://maixhub.com/model/zoo?feature=classification)训练出Kmodel模型,能够稳定识别6类垃圾（纸巾、易拉罐、有害、厨余、纸箱、其他）
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/0b7eac1c-d26a-476f-bc29-aaa6428b6205
 https://github.com/Nosultion/Smart-SortingTrash/assets/116421163/8921cec8-3fbf-4c42-bb65-762a2c8ac629
 # 软件部署  
