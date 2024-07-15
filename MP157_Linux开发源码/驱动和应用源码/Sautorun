@@ -1,0 +1,38 @@
+#/bin/sh
+
+#QT 配置
+export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
+export QT_QPA_PLATFORM=linuxfb:tty=/dev/fb0
+export QT_QPA_FONTDIR=/usr/share/fonts
+
+#TSLIB 配置
+export TSLIB_CONSOLEDEVICE=none
+export TSLIB_FBDEVICE=/dev/fb0
+export TSLIB_TSDEVICE=/dev/input/event0
+export TSLIB_TSEVENTTYPE=input
+export TSLIB_CONFFILE=/etc/ts.conf
+export TSLIB_CALIBFILE=/etc/pointercal
+export TSLIB_PLUGINDIR=/usr/lib/ts
+export QT_QPA_GENERIC_PLUGINS=tslib
+
+cd /lib/modules/5.4.31
+depmod
+modprobe ap3216c
+modprobe icm20608
+
+
+#联网
+ifconfig wlan1 up
+#wpa_supplicant -Dnl80211 -c /etc/wpa_supplicant.conf -i wlan1
+wpa_supplicant -D wext -c /etc/wpa_supplicant.conf -i wlan1 &
+udhcpc -i wlan1
+#ping -I 172.20.10.2 www.baidu.com
+
+#./demoTCP /dev/icm20608 /dev/ap3216 & 
+
+./08_ii2c_ap3216c_sensor &
+
+#./demo /dev/icm20608 /dev/ap3216c /dev/ttySTM2 &
+./demo_ziyou /dev/icm20608 /dev/ap3216c /dev/ttySTM2 &
+
+
